@@ -34,7 +34,7 @@ as seguinte ferreamentas
 
 ## ✒️ Autores
 
-* **CEO/DEV** - *Trabalho Inicial* - [umdesenvolvedor](https://github.com/victorresende069/)
+* **CEO/DEV** - *Trabalho Inicial* - [Victor Resende](https://github.com/victorresende069/)
 
 ---
 ⌨️ com ❤️ por [Victor Resende](https://www.instagram.com/victorresende069/) 😊
