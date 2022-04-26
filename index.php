@@ -138,6 +138,11 @@
 
         </section>
 
+        <footer id="footer">
+            <div class="foo_date">
+                
+            </div>
+        </footer>
     </div>
     <!--CONTAINER-->
 

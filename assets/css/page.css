@@ -30,7 +30,7 @@
     margin-bottom: 10px;
 }
 
-/*PRODUCTS*/
+/*LISTRA DE PRODUTOS (SECTION PRODUCTS)*/
 #products{
     background-color: #f6f6f6;
 }
@@ -119,7 +119,7 @@
     font-size: 12px;
 }
 
-/*INFORMAÇÕES TECNINCAS*/
+/*INFORMAÇÕES TECNINCAS (SECTION INFO)*/
 #info_tec{
     background-color: #f6f6f6;
 }
@@ -171,6 +171,19 @@
     font-family: monospace, serif;
     color: #585858;
     
+}
+
+/*RODAPÉ (FOOTER)*/
+#footer{
+    margin-top:100px;/*TEMPORARIOMENTE*/
+    height: 768px;/*TEMPORARIOMENTE*/
+    background-color: #f6f6f6;
+    background-image: linear-gradient(160deg, #2D2D2D 34%, #000000 100%);
+}
+#footer .foo_date{
+    margin-left: auto;
+    margin-right: auto;
+    width: 365px;
 }
 
 /*TAMANHO 800PX  - TABLET*/
