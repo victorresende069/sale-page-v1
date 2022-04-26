@@ -77,7 +77,6 @@
     margin-top:5px;
     width: 100px;
     height: 100px;
-    background-color:red;
 }
 .list_product .title_product h1{
     font-size: 25px;
@@ -87,17 +86,17 @@
     font-weight: bold;
 }
 .list_product .desc_product p{
-    font-size: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 12px;
+    padding: 12px;
     font-family: monospace, serif;
     font-weight: 400;
     text-align: center;
 }
 .list_product .buy_product{
     background-color: #000000;
-    margin-top:5px;
+    margin-top: 5px;
     padding: 10px;
+    margin-bottom: 25px;
     border-radius: 12px;
     box-shadow: 0 0 2px 2px black;
 }
@@ -185,7 +184,50 @@
     margin-right: auto;
     width: 365px;
 }
-
+#footer .footer_list{
+    margin-left: 15px;
+    display: flex;
+}
+.column_footer .columnFooterTitle{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 14px;
+    margin-top: 35px;
+    color: white;
+}
+.column_footer .columnFooterbar{
+    width: 120px;
+    height: 3px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+#contact .list{
+    display:flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.list .icon_list img{
+    width: 32px;
+    height: 32px;
+}
+.list .text_list h1{
+    margin-left: 15px;
+    font-family: monospace, serif;
+    font-size: 16px;
+    color: white;
+}
+#payment .list{
+    display:flex;
+    align-items: center;
+    margin-top: 25px;
+}
+#payment .img_payment {
+    margin-top: 25px;
+}
+#payment .img_payment img{
+    width: 70%;
+}
 /*TAMANHO 800PX  - TABLET*/
 @media screen and (max-width: 800px) {
     #container {
@@ -201,7 +243,7 @@
     }
   } 
 /*TAMANHO 365PX  - MOBILE*/
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 450px) {
     #container {
         background-color: #f6f6f6;
     }
@@ -213,17 +255,13 @@
     .product_client3, .product_client4
     {
         width: 175px;
-        height:320px;
+        height:360px;
     }
-    .product_client1, .product_client2,
-    .product_client3, .product_client4
-    {
-        width: 160px;
-        height:320px;
+    #footer .footer_list{
+        flex-direction: column;
     }
-    
-    body{
-        background-color: #2be900;
-    }
+
+
+
   } 
   
