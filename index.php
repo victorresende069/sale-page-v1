@@ -41,13 +41,11 @@
                         <p>Modelo Flash Point, Acabamento revestido de azul e bordas de ouro</p>
                     </div>
                     <div class="buy_product">
-                        <a type="button" href="https://www.google.com/tenisnike">COMPRAR</a>
+                        <a type="button" href="https://www.google.com/tenisnike">VER MAIS</a>
                     </div>
                 </div>
 
-
-
-                <div class="product_client1">
+                <div class="product_client2">
                     <div class="price_product">
                         <h2>R$ 250.00</h2>
                     </div>
@@ -59,10 +57,10 @@
                         <p>Modelo Flash Point, Acabamento revestido de azul e bordas de ouro</p>
                     </div>
                     <div class="buy_product">
-                        <a type="button" href="https://www.google.com/tenisnike">COMPRAR</a>
+                        <a type="button" href="https://www.google.com/tenisnike">VER MAIS</a>
                     </div>
                 </div>
-                <div class="product_client1">
+                <div class="product_client3">
                     <div class="price_product">
                         <h2>R$ 250.00</h2>
                     </div>
@@ -74,11 +72,11 @@
                         <p>Modelo Flash Point, Acabamento revestido de azul e bordas de ouro</p>
                     </div>
                     <div class="buy_product">
-                        <a type="button" href="https://www.google.com/tenisnike">COMPRAR</a>
+                        <a type="button" href="https://www.google.com/tenisnike">VER MAIS</a>
                     </div>
                 </div>
 
-                <div class="product_client1">
+                <div class="product_client4">
                     <div class="price_product">
                         <h2>R$ 250.00</h2>
                     </div>
@@ -90,15 +88,55 @@
                         <p>Modelo Flash Point, Acabamento revestido de azul e bordas de ouro</p>
                     </div>
                     <div class="buy_product">
-                        <a type="button" href="https://www.google.com/tenisnike">COMPRAR</a>
+                        <a type="button" href="https://www.google.com/tenisnike">VER MAIS</a>   
                     </div>
                 </div>
-
             </div>
+            <div class="info_product">Promoção limtida, até enquanto durarem os estoques. Vailido até 15/05 - 15/09 (2025)</div>
         </section>
 
+        <section id="info_tec">
+            <div class="textInfo">
+                <h1>Porque escolher a Page Sale para adquirir os produtos ?</h1>
+                <h2>tecnologias, roupas, peças, quimicas e etcs</h2>
+            </div>
 
+            <div class="list_info">
 
+                <div class="infoTec">
+                    <div class="infoImg"><img src="./assets/images/info/img.png"/></div>
+                    <div class="infoDesc">
+                        <div class="infoTitle"><h1>Fácil e Rápido</h1></div>
+                        <div class="infoText"><label>Leva somente poucos segundos para realizar compras na Page Sale.</label></div>
+                    </div>
+                </div>
+                <div class="infoTec">
+                    <div class="infoImg"><img src="./assets/images/info/img.png"/></div>
+                    <div class="infoDesc">
+                        <div class="infoTitle"><h1>Promoções especiais</h1></div>
+                        <div class="infoText"><label>Não perca nossas ofertas incríveis, sorteios e muito mais somente aqui na Page Sale!</label></div>
+                    </div>
+                </div>
+
+                <div class="infoTec">
+                    <div class="infoImg"><img src="./assets/images/info/img.png"/></div>
+                    <div class="infoDesc">
+                        <div class="infoTitle"><h1>Pagamentos Convenientes</h1></div>
+                        <div class="infoText"><label>Pague usando os meios de pagamento mais populares do Brasil</label></div>
+                    </div>
+                </div>
+
+                <div class="infoTec">
+                    <div class="infoImg"><img src="./assets/images/info/img.png"/></div>
+                    <div class="infoDesc">
+                        <div class="infoTitle"><h1>Suporte Qualificado</h1></div>
+                        <div class="infoText"><label>Nossa equipe de suporte está sempre disponível para auxiliar entre 9PM-8AM & 10AM-4PM, 7 dias por semana. </label></div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
 
     </div>
     <!--CONTAINER-->
