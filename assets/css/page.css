@@ -175,7 +175,6 @@
 /*RODAPÉ (FOOTER)*/
 #footer{
     margin-top:100px;/*TEMPORARIOMENTE*/
-    height: 768px;/*TEMPORARIOMENTE*/
     background-color: #f6f6f6;
     background-image: linear-gradient(160deg, #2D2D2D 34%, #000000 100%);
 }
@@ -228,6 +227,35 @@
 #payment .img_payment img{
     width: 70%;
 }
+#politics .link_politics{
+    margin-top: 25px;
+    display:flex;
+    flex-direction: column;
+}
+#politics .link_politics a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: monospace, serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.copy{
+    color: #FFFFFF;
+    font-family: monospace, serif;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+.copy a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
 /*TAMANHO 800PX  - TABLET*/
 @media screen and (max-width: 800px) {
     #container {

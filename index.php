@@ -183,15 +183,26 @@
                         </div>
                     </div>
 
-
-
-
-
-
+                    <!-- POLITICAS -->
+                    <div class="column_footer">
+                        <div class="columnFooterTitle">
+                            <h1>Politicas</h1>
+                        </div>
+                        <div class="columnFooterbar"></div>
+                        <div id="politics" class="columnFooterlist">
+                                <div class="link_politics">
+                                    <a href="https://" target="_blank">Política de reembolso</a>
+                                    <a href="https://" target="_blank">Política de privacidade</a>
+                                    <a href="https://" target="_blank">Regras de conduta</a>
+                                </div>
+                        </div>
+                    </div>
                     
                 </div>
+                <div class="copy">© COPYRIGHT - PAGE SALE (XREZ)® BY <a href="https://www.instagram.com/victorresende069/">VICTOR RESENDE ♡</a> - TODOS OS DIREITOS RESERVADOS.</a></div>
             </div>
         </footer>
+
     </div>
     <!--CONTAINER-->
 
