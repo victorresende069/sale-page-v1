@@ -1,1 +1,3 @@
-app/database/
+*app/database/
+app/database/db.php
+./app/database/
