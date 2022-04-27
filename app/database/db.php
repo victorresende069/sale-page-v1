@@ -1,5 +1,5 @@
 <?php
-//BANCO DE DADOS - .GITINGORE 
+//BANCO DE DADOS - .GITINGORE s
 
 $host_name = 'localhost';
 $user_mysql = 'root';

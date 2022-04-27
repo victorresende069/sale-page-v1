@@ -1,2 +1,2 @@
 *.sql
-app/database/db.php
+app/database/
