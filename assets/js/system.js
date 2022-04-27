@@ -18,7 +18,14 @@ $('.btn').on('click', function (e) {
                 type: 'json',
                 data: JSON.stringify(data),
                 success: function(res){
-
+                    let obj = JSON.parse(res);
+                    let status = obj.status;
+                    if(status === 201){
+                        alert('Produto alterado com sucesso!')
+                    }
+                    else{
+                        alert('Error ao alterar o produto')
+                    }
                 },
                 error: function(){}
             })
