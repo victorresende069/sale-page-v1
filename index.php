@@ -1,6 +1,9 @@
+<?php
+    require_once('./app/database/db.php');
+    
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +11,6 @@
     <title>Pagina de Venda - {PRODUTO}</title>
     <link rel="stylesheet" href="./assets/css/page.css" />
 </head>
-
 <body>
 
     <!--CONTAINER-->

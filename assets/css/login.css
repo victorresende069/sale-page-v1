@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto Mono;
+}
+body{
+    background-color: #f6f6f6;
+}
+#app_login .form{
+    display: flex;
+    justify-content: center;
+}
+.form .form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end
+}
+.form .form-group input{
+    margin-top: 10px;
+}
+.form .form-group button{
+    margin-top: 10px;
+}

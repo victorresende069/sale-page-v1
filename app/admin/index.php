@@ -1,0 +1,10 @@
+<?php
+    session_start();
+    require_once('../database/db.php');
+    if(empty($_SESSION['token'])){
+        require_once('login.php');
+    }
+    else{
+        require_once('system.php');
+    }
+?>

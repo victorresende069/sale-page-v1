@@ -1,6 +1,7 @@
 # Título do projeto
 
 Pagina de Venda (SALE - PAGE)
+Version: 1.0
 
 ## 🚀 Começando
 
