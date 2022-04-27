@@ -1,3 +1,14 @@
+let form =  document.querySelector('#form');
+
+$('#editProduct').on('click', function (e) {
+    e.preventDefault();
+    form.style = 'display: block';
+    
+})
+$('#exitSystem').on('click', function (e) {
+    e.preventDefault();
+    window.location.href = '../api/login/exit.php';
+})
 $('.btn').on('click', function (e) {
         e.preventDefault();
         let name = document.getElementById('nameProduct').value;

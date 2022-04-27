@@ -25,7 +25,7 @@ if (empty($_SESSION['token'])) {
         </div>
 
         <div class="form">
-            <form>
+            <form id="form" style="display: none;">
                 <div class="form_inputs">
 
                     <div class="input">
@@ -58,7 +58,7 @@ if (empty($_SESSION['token'])) {
                         </select>
                     </div>
                     <div class="input button">
-                        <button type="button" class="btn">Alterar</button>
+                        <button type="button" id="submitProduct" class="btn">Alterar</button>
                     </div>
             </form>
         </div>
@@ -66,7 +66,7 @@ if (empty($_SESSION['token'])) {
     </div>
 
     </div>
-    
+
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script type="text/javascript" src="../../assets/js/system.js"></script>
 </body>

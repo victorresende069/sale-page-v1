@@ -45,7 +45,7 @@ body{
     color: #FFFFFF;
 }
 
- button{
+ .btn{
     margin-top: 15px;
     border-radius: 8px;
     background-color: transparent;
@@ -55,6 +55,6 @@ body{
     font-weight: 500;
     padding: 5px;
 }
-button:active{
+.btn:active{
     color: green;
 }
