@@ -1,6 +1,9 @@
 <?php
     require_once('./app/database/db.php');
-    
+    $queryProduct = "SELECT nome, texto, valor, image, link FROM produto";
+    $dados = mysqli_query($connect_mysql, $queryProduct) or die();
+    $linha = mysqli_fetch_assoc($dados);
+    $total = mysqli_num_rows($dados);
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -31,68 +34,37 @@
             </div>
             <div class="list_product">
 
+        <?php  if($total > 0){
+
+                do {
+?>
                 <div class="product_client1">
                     <div class="price_product">
-                        <h2>R$ 250.00</h2>
+                        <h2>R$ <?=$linha['valor']?></h2>
                     </div>
-                    <div class="img_product"><img src="./assets/images/product/product1.webp" /></div>
+                    <div class="img_product"><img src="<?=$linha['image']?>" /></div>
                     <div class="title_product">
-                        <h1>Tênis Nike</h1>
+                        <h1><?=$linha['nome']?></h1>
                     </div>
                     <div class="desc_product">
-                        <p>Modelo Flash Point, Acabamento revestido de azul e bordas de ouro</p>
+                        <p><?=$linha['texto']?></p>
                     </div>
                     <div class="buy_product">
-                        <a type="button" href="https://www.google.com/tenisnike">VER MAIS</a>
+                        <a type="button" href="<?=$linha['link']?>">VER MAIS</a>
                     </div>
                 </div>
 
-                <div class="product_client2">
-                    <div class="price_product">
-                        <h2>R$ 250.00</h2>
-                    </div>
-                    <div class="img_product"><img src="./assets/images/product/product1.webp" /></div>
-                    <div class="title_product">
-                        <h1>Tênis Nike</h1>
-                    </div>
-                    <div class="desc_product">
-                        <p>Modelo Flash Point, Acabamento revestido de azul e bordas de ouro</p>
-                    </div>
-                    <div class="buy_product">
-                        <a type="button" href="https://www.google.com/tenisnike">VER MAIS</a>
-                    </div>
-                </div>
-                <div class="product_client3">
-                    <div class="price_product">
-                        <h2>R$ 250.00</h2>
-                    </div>
-                    <div class="img_product"><img src="./assets/images/product/product1.webp" /></div>
-                    <div class="title_product">
-                        <h1>Tênis Nike</h1>
-                    </div>
-                    <div class="desc_product">
-                        <p>Modelo Flash Point, Acabamento revestido de azul e bordas de ouro</p>
-                    </div>
-                    <div class="buy_product">
-                        <a type="button" href="https://www.google.com/tenisnike">VER MAIS</a>
-                    </div>
-                </div>
+               
+                <?php
+                } while ($linha = mysqli_fetch_assoc($dados));
 
-                <div class="product_client4">
-                    <div class="price_product">
-                        <h2>R$ 250.00</h2>
-                    </div>
-                    <div class="img_product"><img src="./assets/images/product/product1.webp" /></div>
-                    <div class="title_product">
-                        <h1>Tênis Nike</h1>
-                    </div>
-                    <div class="desc_product">
-                        <p>Modelo Flash Point, Acabamento revestido de azul e bordas de ouro</p>
-                    </div>
-                    <div class="buy_product">
-                        <a type="button" href="https://www.google.com/tenisnike">VER MAIS</a>
-                    </div>
-                </div>
+        }?>
+
+
+
+
+
+
             </div>
             <div class="info_product">Promoção limtida, até enquanto durarem os estoques. Vailido até 15/05 - 15/09 (2025)</div>
         </section>
@@ -204,11 +176,9 @@
                 <div class="copy">© COPYRIGHT - PAGE SALE (XREZ)® BY <a href="https://www.instagram.com/victorresende069/">VICTOR RESENDE ♡</a> - TODOS OS DIREITOS RESERVADOS.</a></div>
             </div>
         </footer>
-
+        
     </div>
     <!--CONTAINER-->
-
     <script type="text/javascript" src="./assets/js/page.js"></script>
 </body>
-
 </html>

@@ -1,6 +1,17 @@
+##  Demostração 👀
+
+* [PAGINA-VENDA](https://project.xrez.com.br/sale-page/) - Pagina de Venda
+
+* [PAGINA-ADMIN](https://project.xrez.com.br/sale-page/app/admin/) - Pagina do Administrador
+
+Acesso Restrito:
+
+usuário: admin / senha: admin
+
 # Título do projeto
 
 Pagina de Venda (SALE - PAGE)
+
 Version: 1.0
 
 ## 🚀 Começando
